@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+}
+.main{
+    color: brown;
+    
+}
+.paragraph{
+    color:lawngreen;
+    display: flex;
+    justify-content: center;
+    visibility:visible
+}
+img:hover{
+    opacity: 0.5;
+}
+.title{
+    color:black;
+    position:absolute;
+    opacity: 0;
+    top:20%;
+    left:53%;
+}
+.title:hover{
+    opacity:1;
+}
+
+button{
+    left:50%;
+    top : 50%;
+    color:seagreen;
+    background-color: black;
+    position :absolute;
+    border-radius: 50px;
+}
+button:hover{
+    opacity:0.5;
+}
